@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoanPredict AI</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav>
+
+        <div class="logo">
+            LoanPredict AI
+        </div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#stats">Statistics</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-left">
+
+            <span class="badge">
+                AI • Machine Learning • FinTech
+            </span>
+
+            <h1>
+                AI Powered Loan Approval Prediction
+            </h1>
+
+            <p>
+                Predict loan eligibility instantly using Machine Learning,
+                financial analytics, and credit-risk assessment.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="/form" class="btn">
+                    Check Eligibility
+                </a>
+
+                <a href="#about" class="btn-secondary">
+                    Learn More
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right">
+
+            <div class="dashboard-card">
+
+                <h3>Approval Analytics</h3>
+
+                <div class="percentage">
+                    78.86%
+                </div>
+
+                <p>Model Accuracy</p>
+
+                <hr>
+
+                <div class="stats-mini">
+
+                    <div>
+                        <h4>614</h4>
+                        <span>Applications</span>
+                    </div>
+
+                    <div>
+                        <h4>3</h4>
+                        <span>Models</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FEATURES -->
+
+   <section id="features" class="features">
+
+    <div class="card">
+        <div class="icon">⚡</div>
+        <h2>Instant Prediction</h2>
+        <p>
+            Get loan approval predictions within seconds using AI.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="icon">🎯</div>
+        <h2>Machine Learning</h2>
+        <p>
+            Trained using multiple classification algorithms.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="icon">🔒</div>
+        <h2>Secure Analysis</h2>
+        <p>
+            Applicant data is processed securely and instantly.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="icon">📊</div>
+        <h2>Financial Analytics</h2>
+        <p>
+            Smart decision making using financial indicators.
+        </p>
+    </div>
+
+</section>
+<section class="comparison">
+
+    <h2>Model Performance Comparison</h2>
+
+    <p class="comparison-subtitle">
+        Multiple machine learning algorithms were trained and evaluated.
+    </p>
+
+    <div class="table-container">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Accuracy</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Logistic Regression</td>
+                    <td>78.86%</td>
+                    <td class="best">Best Model ✅</td>
+                </tr>
+
+                <tr>
+                    <td>Random Forest</td>
+                    <td>75.60%</td>
+                    <td>Good</td>
+                </tr>
+
+                <tr>
+                    <td>Decision Tree</td>
+                    <td>69.10%</td>
+                    <td>Average</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+<section class="workflow">
+
+    <h2>How LoanPredict AI Works</h2>
+
+    <p class="workflow-subtitle">
+        Simple, intelligent and fast prediction process
+    </p>
+
+    <div class="workflow-container">
+
+        <div class="workflow-card">
+            <div class="workflow-icon">📝</div>
+            <h3>Applicant Details</h3>
+            <p>
+                User enters personal and financial information.
+            </p>
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div class="workflow-card">
+            <div class="workflow-icon">⚙️</div>
+            <h3>Data Processing</h3>
+            <p>
+                Data is cleaned, encoded and prepared.
+            </p>
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div class="workflow-card">
+            <div class="workflow-icon">🤖</div>
+            <h3>ML Model</h3>
+            <p>
+                Random Forest analyzes approval chances.
+            </p>
+        </div>
+
+        <div class="arrow">→</div>
+
+        <div class="workflow-card">
+            <div class="workflow-icon">✅</div>
+            <h3>Prediction</h3>
+            <p>
+                Instant loan approval or rejection result.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<!-- STATS -->
+
+    <section id="stats" class="stats">
+
+        <div class="stat">
+            <h2>614+</h2>
+            <p>Applications Analysed</p>
+        </div>
+
+        <div class="stat">
+            <h2>78.86%</h2>
+            <p>Model Accuracy</p>
+        </div>
+
+        <div class="stat">
+            <h2>3</h2>
+            <p>Models Compared</p>
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+
+    <section id="about" class="about">
+
+        <h2>About The Project</h2>
+
+        <p>
+            This Loan Approval Prediction System uses Machine Learning
+            algorithms to determine whether a loan application is likely
+            to be approved based on applicant information.
+        </p>
+
+        <p>
+            Models Used:
+            Logistic Regression,
+            Decision Tree,
+            Random Forest.
+        </p>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>LoanPredict AI</h3>
+
+        <p>
+            Machine Learning Based Loan Approval Prediction System
+        </p>
+
+        <p>
+            Developed by Suryansh Srivastava
+        </p>
+
+    </footer>
+<footer class="footer">
+    <p>
+        Developed by Suryansh Srivastava |
+        Loan Approval Prediction using Machine Learning
+    </p>
+</footer>
+</body>
+
+</html>
